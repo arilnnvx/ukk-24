@@ -1,0 +1,156 @@
+.header {
+  height: 80px;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: x-large;
+}
+.right {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+.main-text {
+  font-weight: 500;
+  margin-right: 5px;
+}
+.in-circle {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 45px;
+  margin-left: 1px;
+  background: linear-gradient(rgb(255, 255, 255), white) padding-box,
+    linear-gradient(
+        45deg,
+        rgb(255, 153, 0),
+        rgb(241, 26, 241),
+        rgb(36, 12, 247)
+      )
+      border-box;
+  border: 3px solid transparent;
+}
+.circ {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 45px;
+  margin-left: 1px;
+  border: 2px solid rgb(114, 114, 114);
+}
+.circ-2 {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-left: 1px;
+  background: linear-gradient(rgb(255, 255, 255), white) padding-box,
+    linear-gradient(
+        45deg,
+        rgb(255, 153, 0),
+        rgb(241, 26, 241),
+        rgb(36, 12, 247)
+      )
+      border-box;
+  border: 3px solid transparent;
+}
+.right,
+.left {
+  margin: 0px 50px;
+}
+.btn-l {
+  margin-right: 20px;
+  background: linear-gradient(rgb(255, 255, 255), white) padding-box,
+    linear-gradient(
+        45deg,
+        rgb(255, 153, 0),
+        rgb(241, 26, 241),
+        rgb(36, 12, 247)
+      )
+      border-box;
+}
+.bg-grad {
+  background: linear-gradient(rgb(255, 255, 255), white) padding-box,
+    linear-gradient(
+        45deg,
+        rgb(255, 153, 0),
+        rgb(241, 26, 241),
+        rgb(36, 12, 247)
+      )
+      border-box;
+}
+.pp {
+  padding: 0 20px;
+}
+.non {
+  list-style: none;
+}
+.nama {
+  margin-left: 10px;
+}
+.kh {
+  width: 90%;
+}
+.lg {
+  font-size: large;
+  font-weight: bold;
+}
+.profil {
+  height: 150px;
+}
+.mo-p {
+  margin: 0 200px;
+}
+.w-30 {
+  width: 30%;
+}
+.post {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.post:hover {
+  transform: scale(1.1);
+  transform: 0, 2s;
+}
+.fr {
+  height: 160px;
+}
+.xl-font {
+  font-size: 30px;
+}
+.line {
+  margin-left: 10px;
+}
+.fs-10 {
+  font-size: 15px;
+}
+.w-90 {
+  width: 94%;
+}
+.alb-main {
+  height: 74vh;
+  overflow: scroll;
+}
+.info {
+  height: 250px;
+  overflow: scroll;
+}
+.info-2 {
+  height: 350px;
+  overflow: scroll;
+}
+.info-2::-webkit-scrollbar,
+.info::-webkit-scrollbar,
+.alb-main::-webkit-scrollbar,
+.modal-body::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar,
+.card::-webkit-scrollbar {
+  display: none;
+}
+.tw {
+  height: 60vh;
+}
+.m-f {
+  margin: 15px;
+}
+.rigg {
+  margin-right: 10px;
+}
